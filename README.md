@@ -20,3 +20,4 @@ Este repositorio esta orientado a apoyar a los estudiantes de IPC2 de lo desarol
 
 - [`🐍 Unidad 1:`](./Unidad1/) Introducción a Python
   - [📚 Clase 1](./Unidad1/Clase1/)
+  - [📚 Clase 2](./Unidad1/Clase2/)
