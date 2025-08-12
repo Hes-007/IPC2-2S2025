@@ -30,4 +30,4 @@ En esta clase se abordaron los temas de manejo de versiones, Git, GitHub, GitKra
 
 ### 💻 Ejemplo de la Clase
 
-Lo puedes encontrar en:  [IPC2-Ejemplo-Clae3](hhttps://github.com/Hes-007/IPC2-Ejemplo-Clase3)
+Lo puedes encontrar en:  [IPC2-Ejemplo-Clae3](https://github.com/Hes-007/IPC2-Ejemplo-Clase3)
