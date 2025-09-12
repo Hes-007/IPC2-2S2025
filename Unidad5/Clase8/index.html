@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi primera página web</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+
+        <!-- ESTILO INTERNAL-->
+         <style>
+
+            h1 {
+                color: blue;
+            }
+
+            strong {
+                color:green;
+            }
+
+            table {
+                border-color:black;
+                border-style: solid;
+            }
+            td {
+                border-style: solid;
+            }
+
+         </style>
+
+        <!--TITULOS-->
+        <h1>Este es mi título H1</h1>
+        <h2>Este es mi título H2</h2>
+        <h3>Este es mi título H3</h3>
+        <h4>Este es mi título H4</h4>
+        <h5>Este es mi título H5</h5>
+        <h6>Este es mi título H6</h6>
+
+        <!--PÁRRAFOS-->
+
+        <p>Este es un párrafo simple</p>
+        <p> Este es mi <br> párrafo con salto de linea</p>
+        <p> Este es mi párrafor con <strong>texto en negrita</strong></p>
+        <p> Este es mi párrafo con <em>texto en cursiva</em></p>
+        <!--ESTILO INLINE-->
+        <p style="color:darkred">Este párrafo está de color rojo obscuro</p>
+        <hr/>
+
+        <!--TABLAS-->
+        <table>
+            <!--ENCABEZADOS DE LAS TABLAS-->
+            <thead>
+                <tr>
+                   <th>Columna1</th>
+                   <th>Columna2</th>
+                   <th>Columna3</th>
+                   <th>Columna4</th>
+                   <th>Columna5</th>
+                </tr>
+            </thead>
+            <!--CUERPO DE LA TABLA-->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                 <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                 <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td colspan="2" align="center">4</td>
+                </tr>
+                 <tr>
+                    <td rowspan="2">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                 <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr/>
+
+        <!--IMAGENES-->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSigRIk85HsKZiS8hV7Ptj_PCYVdc7OaVYhJg&s" alt="" title="Son Goku" width="150" height="200"/>
+
+        <hr/>
+
+        <!--LISTAS-->
+        <!--LISTAS ORDENADAS-->
+        <h4>Listas númerica</h4>
+        <ol type="1">
+            <li>Mario Bros</li>
+            <li>Minecraft</li>
+            <li>Fortnite</li>
+        </ol>
+        
+        <h4>Listas números romanos</h4>
+        <ol type="i">
+            <li>Primaria</li>
+            <li>Básicos</li>
+            <li>Diversificado</li>
+        </ol>
+
+        <h4>Listas de abecedario</h4>
+        <ol type="a">
+            <li>Lunes</li>
+            <li>Martes</li>
+            <li>Miércoles</li>
+        </ol>
+
+        <!--LISTAS DESORDENADAS-->
+        <h4>Listas desordenadas</h4>
+        <ul>
+            <li>Series</li>
+            <li>Películas</li>
+            <li>Anime</li>
+        </ul>
+
+        <!--LISTAS DE DEFINICIÓN-->
+        <h4>Listas de definición</h4>
+        <dl>
+
+            <dt>Carro</dt>
+            <dd>Tiene ruedas</dd>
+            <dd>Tiene puertas</dd>
+            <dt>Avión</dt>
+            <dd>Vuela por los cielos</dd>
+        </dl>
+        <hr/>
+
+        <!--FORMULARIOS-->
+        <form action="URL" method="get">
+            <!--COMBO DE OPCIONES-->
+            <select name="equipos">
+                <option>Barcelona</option>
+                <option>Real Madrid</option>
+                <option>Valencia</option>
+            </select>
+
+        <!--Múltiple-->
+            <select name="equipos" multiple>
+                <option>Barcelona</option>
+                <option>Real Madrid</option>
+                <option>Valencia</option>
+            </select>
+
+            <select name="equipos">
+                <option label="No soy fan" value="1"></option>
+                <option label="Cules">Barcelona</option>
+                <option label="Merengues">Real Madrid</option>
+                <option label="Che">Valencia</option>
+            </select>
+
+            <select name="Facultades">
+                <optgroup label="Ingeniería">
+                    <option>Sistemas GOD</option>
+                    <option>Electrónica</option>
+                    <option>Civil</option>
+                </optgroup>
+                <optgroup label="Arquitectura">
+                    <option>Arquitectura</option>
+                    <option>Diseño Gráfico</option>
+                </optgroup>
+            </select>
+
+            <!--ÁREAS DE TEXTO-->
+            <textarea rows="5" cols="30"></textarea>
+
+            <!--BOTONES-->
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
+            <button type="button">Botón</button>
+
+            <!-- INPUTS-->
+            <input type="text">
+            <input type="password">
+            <input type="email">
+            <input type="image">
+            <input type="range">
+            <input type="date">
+            <input type="time">
+            <input type="number">
+            <input type="checkbox">
+            <input type="radio">
+            <input type="color">
+            <input type="file">
+        </form>
+
+
+
+        <!--FOOTERS-->
+        <footer>
+            Créditos: Al aux de IPC2
+            <address>7 Calle 7-15, zona 30, Ciudad de Guatemala</address>
+        </footer>
+   
+
+    </body>
+</html>
